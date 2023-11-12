@@ -63,18 +63,17 @@ def call_openai_api_with_image():
 
 
 def main():
-    object='skeleton'
     original_image_path = 'images/ispy.png'
     original_image = Image.open(original_image_path)
     sections_dict, split_image = split_image_with_gaps(original_image, None, 'images/ss1.png', save=True)
-    append_message(True, f"In what sections is the {object} located in the image", split_image)
+    append_message(True, f"I spy with my little eye something that is spooky", split_image)
     api_response = call_openai_api_with_image()
     append_message(False, api_response)
     print(api_response)
     indices = get_section_indices(api_response)
     print(indices)
     sections_dict, split_image = split_image_with_gaps(sections_dict, indices, 'images/ss2.png', save=True)
-    append_message(True, f"In what sections is the {object} located in the image", split_image)
+    append_message(True, f"In what sections is the object?", split_image)
     api_response = call_openai_api_with_image()
     append_message(False, api_response)
     print(api_response)
