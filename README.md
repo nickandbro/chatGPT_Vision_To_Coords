@@ -2,15 +2,23 @@
 Is a way to send ChatGPT vision a image broken into 9 sections, where it can then classify objects into those sections. Once a section or sections are identified, it will take those sections again and redivide them to obtain better precision.
 
 ## Example
+
 "I spy with my little eye something that is spooky"
+
 ![whole image](images/ispy.png)
+
 "I've identified section 4 as having a skeleton in it"
+
 ![sections of image](images/ss1.png)
+
 "With this image of section 4 where is the skeleton?"
-<br>
+
 ![sub section divided](images/ss2.png)
+
 "Section 5"
+
 ![red outline on skeleton](images/ss3.png)
+
 
 ## How it works:
 1. The image is broken into 9 sections with a green background and black outline around each section.
