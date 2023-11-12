@@ -3,19 +3,19 @@ Is a way to send ChatGPT vision a image broken into 9 sections, where it can the
 
 ## Example
 
-"I spy with my little eye something that is spooky"
+User: "I spy with my little eye something that is spooky"
 
 ![whole image](images/ispy.png)
 
-"I've identified section 4 as having a skeleton in it"
+Assistant: "I've identified section 4 as having a skeleton in it"
 
 ![sections of image](images/ss1.png)
 
-"With this image of section 4 where is the skeleton?"
+User: "With this image of section 4 where is the skeleton?"
 
 ![sub section divided](images/ss2.png)
 
-"Section 5"
+Assistant: "Section 5"
 
 ![red outline on skeleton](images/ss3.png)
 
