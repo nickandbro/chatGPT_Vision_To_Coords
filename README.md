@@ -13,12 +13,9 @@ Is a way to send ChatGPT vision a image broken into 9 sections, where it can the
 
 "With this image of section 4 where is the skeleton?"
 
-<br>
 ![sub section divided](images/ss2.png)
-<br>
 
 "Section 5"
-<br>
 
 ![red outline on skeleton](images/ss3.png)
 
